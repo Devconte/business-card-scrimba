@@ -1,8 +1,10 @@
+import "./List.css";
+
 function List() {
   return (
-    <div>
+    <div className="container">
       <h1>Fun facts about React</h1>
-      <ul>
+      <ul className="list">
         <li>Was first released in 2013</li>
         <li>Is maintained by Facebook</li>
         <li>Allows you to create reusable UI components</li>

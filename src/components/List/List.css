@@ -1,0 +1,20 @@
+.container {
+  padding: 40px;
+  background-image: url("../../assets/react-icon-large.png");
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+h1 {
+  font-size: 39px;
+}
+
+li {
+  padding: 8px;
+  font-size: 1.2rem;
+}
+
+li::marker {
+  color: #61dafb;
+  font-size: 30px;
+}
